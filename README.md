@@ -17,4 +17,4 @@ help me to be intentional about my naming conventions and stay organized.
 
 
 ### Notes
-I would like to create automated tests for this at some point, but for now I just provided the types of testing commands that can be ran in tests.txt.
+I would like to create automated tests for this at some point, but for now I just provided the types of testing commands that can be ran in [tests.md](https://github.com/sharellcodes/File-Organization/blob/main/tests.md).
