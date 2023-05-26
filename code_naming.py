@@ -7,7 +7,7 @@ import os, sys, re
 # Validate the amount of command line arguments
 if len(sys.argv) != 2:
    print('Please enter a command that follows this convention: code_naming.py topic_name.ext'
-        '- Don\'t include whitespace at the end of the command')
+         '- Don\'t include whitespace at the end of the command')
    sys.exit(1)
 
 # Database for a file's attributes based on its extension
