@@ -37,12 +37,12 @@ topic = file_validation[1]
 
 # Create the path for the language folder that the file will go in
 language_subdirectory = languages[file_ext][0]
-language_directory = Path(f'/Users/sharellscott/Programming_Practice/{language_subdirectory}')
+language_directory = Path(f'/xxx/{language_subdirectory}')
 os.chdir(language_directory)
 
 # Create the path for the file that contains the applicable template
 template_name = languages[file_ext][1]
-template_path = f'/Users/sharellscott/Documents/Side Projects/General Scripts/file mgmt script/Boilerplate Code/template_{template_name}'
+template_path = f'/xxx/template_{template_name}'
 template_path = Path(template_path)
 
 # Create the path for the file
@@ -59,4 +59,4 @@ if not target_file_path.exists():
 else:
     print('This file path already exists. Opening now ...')
 
-os.system(f'chmod +x {target_file_path} && open -a \'Visual Studio Code\' {topic}')
+os.system(f'chmod +x {target_file_path} && open -a \'xxx\' {topic}')
