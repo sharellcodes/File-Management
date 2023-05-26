@@ -13,6 +13,5 @@ help me to be intentional about my naming conventions and stay organized.
    1. I want to have the file created in a specific folder based on the name of the file at creation time.
    2. I want to have an automated process that monitors the home directory for any files that I happen to create outside of the desired folders.
 
-### How to Use
-#### --- Local Environment ---
-(This is specifically for MacOS)
+### Algorithm
+
