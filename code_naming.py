@@ -14,13 +14,11 @@ file_pattern = r'([A-Za-z\d\s]+)_([A-Za-z\d\s]+)(\.(py|html|java|cpp|css|js|swif
 input_file = sys.argv[1]
 
 file_validation = re.fullmatch(file_pattern, input_file)
-print(file_validation[0], file_validation[1], file_validation[2], file_validation[3], file_validation[4])
-print(len(sys.argv))
 
 if not file_validation:
    print('Please enter a file name that conforms to the following:\n'
-         '- ends in .py to indicate that it\'s a python file\n'
-         '- Has 2-3 parts to the name, using a _ to split up the parts of the name\n'
+         '- ends in .py, .html, .css, .js, .java, .swift or .cpp\n'
+         '- Has 2 parts to the name, using a _ to split up the parts of the name\n'
          '- Uses the first part of the name to specify the topic\n'
          '- Clearly specifies the type of file this is\n')
    sys.exit(1)
