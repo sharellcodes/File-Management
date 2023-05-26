@@ -17,4 +17,8 @@ help me to be intentional about my naming conventions and stay organized.
 
 
 ### Notes
-I would like to create automated tests for this at some point, but for now I just provided the types of testing commands that can be ran in [tests.md](https://github.com/sharellcodes/File-Organization/blob/main/tests.md).
+- I would like to create automated tests for this at some point, but for now I just provided the types of testing commands that can be ran in [tests.md](https://github.com/sharellcodes/File-Organization/blob/main/tests.md).
+- If you download this to use
+   - at lines 40, 45 & 62 - replace 'xxx' with your own file path and IDE (I used Visual Studio Code).
+   - Be sure to create the necessary language folders (Python, HTML, etc. under whichever file path you choose)
+   - Note that I set up my local environment to be able to run the commands in any directory
