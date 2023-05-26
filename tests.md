@@ -19,7 +19,6 @@ Please enter a command that follows this convention: code_naming.py topic_name.e
 `code_naming.py topic_name.py x`-> 
 ```
 Please enter a command that follows this convention: code_naming.py topic_name.ext
-- Don't include whitespace at the end of the command
 ```
 
 **testing a file name with no extension at the end**
@@ -28,6 +27,7 @@ Please enter a command that follows this convention: code_naming.py topic_name.e
 ```
 Please use a file name that conforms to the following convention: topic_name.ext
 - These are the available ext types: py, html, java, cpp, css, js, swift
+- Don't include whitespace at the end of the command
 ```
 
 **testing a file name with an unknown extension**
@@ -36,6 +36,7 @@ Please use a file name that conforms to the following convention: topic_name.ext
 ```
 Please use a file name that conforms to the following convention: topic_name.ext
 - These are the available ext types: py, html, java, cpp, css, js, swift
+- Don't include whitespace at the end of the command
 ```
 
 **testing a file name with a known extension + a little extra**
@@ -44,6 +45,7 @@ Please use a file name that conforms to the following convention: topic_name.ext
 ```
 Please use a file name that conforms to the following convention: topic_name.ext
 - These are the available ext types: py, html, java, cpp, css, js, swift
+- Don't include whitespace at the end of the command
 ```
 
 **testing a file name with more than 2 parts**
@@ -52,6 +54,7 @@ Please use a file name that conforms to the following convention: topic_name.ext
 ```
 Please use a file name that conforms to the following convention: topic_name.ext
 - These are the available ext types: py, html, java, cpp, css, js, swift
+- Don't include whitespace at the end of the command
 ```
 
 **testing a file name with 1 part**
@@ -60,6 +63,7 @@ Please use a file name that conforms to the following convention: topic_name.ext
 ```
 Please use a file name that conforms to the following convention: topic_name.ext
 - These are the available ext types: py, html, java, cpp, css, js, swift
+- Don't include whitespace at the end of the command
 ```
 
 ## SUCCESSES
