@@ -15,3 +15,6 @@ help me to be intentional about my naming conventions and stay organized.
 
 ### Algorithm
 
+
+### Notes
+I would like to create automated tests for this at some point, but for now I just provided the types of testing commands that can be ran in tests.txt.
