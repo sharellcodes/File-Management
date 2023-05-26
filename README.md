@@ -7,7 +7,7 @@ help me to be intentional about my naming conventions and stay organized.
 
 ### Goals
 1. Whenever I create a new [Java, C++, HTML, CSS, Javscript, Swift, Python] file, I want the 
-   boilerplate code.
+   boilerplate code automatically added.
 2. I create a lot of practice files for specific subjects. I want the files to automatically be moved to.
    the appropriate folder, no matter where I create it
    1. I want to have the file created in a specific folder based on the name of the file at creation time.
