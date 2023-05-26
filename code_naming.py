@@ -19,8 +19,7 @@ if not file_validation:
    print('Please enter a file name that conforms to the following:\n'
          '- ends in .py, .html, .css, .js, .java, .swift or .cpp\n'
          '- Has 2 parts to the name, using a _ to split up the parts of the name\n'
-         '- Uses the first part of the name to specify the topic\n'
-         '- Clearly specifies the type of file this is\n')
+         '- Uses the first part of the name to specify the topic\n')
    sys.exit(1)
 
 def name_HTML():
