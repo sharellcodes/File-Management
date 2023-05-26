@@ -2,22 +2,6 @@
 
 from pathlib import Path
 import os, sys, re
-
-"""
----- Goals ----
-TEMPLATING (doing)
-1. Whenever I create a new [Java, C++, HTML, CSS, Javscript, Swift, Python] file, I want the 
-   boilerplate code
-
-ORGANIZING (not done)
-1. I create a lot of practice files for specific subjects. I want the files to automatically be moved to
-   the appropriate folder, no matter where I create it
-
----- Context ----
-I constantly create files to practice various programming skills. I tend to recreate the same files, and I
-also tend to add the files to folders that I forget about, with names that I forget about. This will 
-help me to be intentional about my naming conventions and stay organized.
-"""
    
 
 # make sure the command line argument amount is valid
@@ -189,7 +173,7 @@ def name_CPP():
 ''' 
 TESTS 
 ---- Failures ----
-- testing one command line arguments
+- testing one command line argument
 - testing more than two command line arguments
 - testing a file name with no extension at the end
 - testing a file name with an unknown extension
@@ -203,7 +187,7 @@ TESTS
 - testing the correct extensions
 - testing files with names that already exist
 - testing files with directories that already exist
-- check the contents of the files and make sure ti has the correct templates
+- check the contents of the files and make sure it has the correct templates
 '''
 
 if __name__=='__main__':
