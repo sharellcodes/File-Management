@@ -6,8 +6,7 @@ import os, sys, re
 
 # Validate the amount of command line arguments
 if len(sys.argv) != 2:
-   print('Please enter a command that follows this convention: code_naming.py topic_name.ext'
-         '- Don\'t include whitespace at the end of the command')
+   print('Please enter a command that follows this convention: code_naming.py topic_name.ext')
    sys.exit(1)
 
 # Database for a file's attributes based on its extension
@@ -28,7 +27,8 @@ file_pattern = r'([A-Za-z\d\s]+)_([A-Za-z\d\s]+)(\.(py|html|java|cpp|css|js|swif
 file_validation = re.fullmatch(file_pattern, target_file)
 if not file_validation:
    print('Please use a file name that conforms to the following convention: topic_name.ext\n'
-         '- These are the available ext types: py, html, java, cpp, css, js, swift\n')
+         '- These are the available ext types: py, html, java, cpp, css, js, swift\n'
+         '- Don\'t include whitespace at the end of the command')
    sys.exit(1)
 
 # Get the file's type (ext) and topic
