@@ -72,13 +72,13 @@ Please use a file name that conforms to the following convention: topic_name.ext
 
 `code_naming.py topic_name.py` ->
 
-No output. You should see the file at <file_path>. If you open up the file, it should have the same contents as the file at <file_path>. The file should open its own window in Visual Studio Code.
+No output. You should see the file at <file_path>. If you open up the file, it should have the same contents as the file at <file_path>. The file should open its own window in the IDE.
 
 **testing the correct extensions**
 
 `code_naming.py topic_name.html` ->
 
-No output. You should see the file at <file_path>. If you open up the file, it should have the same contents as the file at <file_path>. The file should open in its own window in Visual Studio Code.
+No output. You should see the file at <file_path>. If you open up the file, it should have the same contents as the file at <file_path>. The file should open in its own window in the IDE.
 
 Repeat this for the rest of the extensions.
 
