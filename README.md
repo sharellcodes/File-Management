@@ -22,7 +22,7 @@ help me to be intentional about my naming conventions and stay organized.
 6. Open up the file in the desired IDE.
 
 ### Notes
-- I would like to create automated tests for this at some point, but for now I just provided the types of testing commands that can be ran in [tests.md](https://github.com/sharellcodes/File-Organization/blob/main/tests.md).
+- I would like to create automated tests for this at some point, but for now I just provided the types of testing commands that can be ran in [code_naming_tests.md](https://github.com/sharellcodes/File-Organization/blob/main/tests.md).
 - code_naming.py is used to add the boilerplate code automatically, and to create file in a specific folder at creation time.
 - code_organzining.py will be used to move applicable files to their corresponding folders.
 - If you download this to use
