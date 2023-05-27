@@ -87,4 +87,4 @@ Repeat this for the rest of the extensions.
 Re-run any commands that you've already ran ->
 
 `This file path already exists. Opening now ...`
-The file should also open in its own window in Visual Studio Code.
+The file should also open in its own window in the IDE.
