@@ -40,14 +40,14 @@ language_subdirectory = languages[file_ext][0]
 language_directory = Path(f'/xxx/{language_subdirectory}')
 os.chdir(language_directory)
 
+# Create the path for the file
+os.makedirs(topic, exist_ok=True)
+target_file_path = Path(topic) / target_file
+
 # Create the path for the file that contains the applicable template
 template_name = languages[file_ext][1]
 template_path = f'/xxx/template_{template_name}'
 template_path = Path(template_path)
-
-# Create the path for the file
-os.makedirs(topic, exist_ok=True)
-target_file_path = Path(topic) / target_file
 
 # Copy the template to the file if it doesn't exist. Otherwise, just open the file
 if not target_file_path.exists():
